@@ -1,0 +1,50 @@
+/*
+Desktop First -> (max width) dalla più grande alla più piccola
+*/
+/* Media Query tablet */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* Media Query mobile */
+@media screen and (max-width: 480px) {
+    .row {
+        display: inline-block;
+    }
+
+    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right {
+        width: 100%;
+    }
+
+    .row > div:nth-child(2), .row > div:nth-child(3) {
+        padding-top: 3rem;
+    }
+
+    .why-us .col-right {
+        padding-left: 3.7rem;
+        padding-right: 3.7rem;
+    }
+
+    .why-us {
+        background-color: #222222;
+        padding-top: 3rem;
+        margin-bottom: 0;
+        padding-bottom: 3rem;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+    .text {
+        margin: 0 2.7em;
+    }
+
+    h2.text-center {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+}
+

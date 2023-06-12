@@ -1,6 +1,14 @@
 /*
 Desktop First -> (max width) dalla più grande alla più piccola
 */
+
+/* Media Query scrollbar */
+@media screen and (max-width: 1160px) {
+    .container {
+        width: 100%;
+    }
+}
+
 /* Media Query tablet */
 @media screen and (max-width: 768px) {
     .container {
@@ -47,4 +55,3 @@ Desktop First -> (max width) dalla più grande alla più piccola
         padding-right: 1.5em;
     }
 }
-
